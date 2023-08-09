@@ -1,0 +1,26 @@
+# Test your FastAPI endpoints
+
+###
+
+POST http://127.0.0.1:8000/check/message
+Accept: application/json
+Content-Type: application/json
+
+{
+    "text": "你是个大傻子谢谢谢谢",
+    "uid": "11111",
+    "info": true
+}
+
+###
+POST http://127.0.0.1:8000/check/message
+Accept: application/json
+Content-Type: application/json
+
+{
+    "text": "你好哇，好人",
+    "uid": "11111",
+    "info": false
+}
+
+###
